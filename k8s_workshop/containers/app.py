@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Endpoint 'bueno' que responde con un mensaje de éxito
 @app.route('/good')
 def bueno():
-    return "Todo va bien en /bueno"
+    return "Todo va bien en /good"
 
 # Endpoint 'malo' que forzará el cierre del contenedor
 @app.route('/bad')
